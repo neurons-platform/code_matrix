@@ -1,0 +1,9 @@
+class CmdResult {
+  String protocol_type
+  String system
+  String ip
+  String to
+  String group
+  String stdout
+  String stderr
+}

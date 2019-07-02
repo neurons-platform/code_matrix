@@ -1,0 +1,6 @@
+class Cmd {
+  String user
+  String group
+  String cmd
+  String arg
+}

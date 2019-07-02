@@ -1,0 +1,25 @@
+
+
+*  plantuml -> code
+| plantuml | java         | golang  | rust         | c |
+|----------+--------------+---------+--------------+---|
+| Bool     | bool         | bool    | bool         |   |
+| String   | String       | string  | String       |   |
+| Int      | int          | int     | i32          |   |
+| Long     | long         | int64   | i64          |   |
+| List<T>  | List<T>      | []T     | Vec<T>       |   |
+| Map<K,V> | HashMap<K,V> | map[K]V | HashMap<K,V> |   |
+| T        | T            | T       | T            |   |
+
+
+
+*  json -> code
+  
+| json           | plantuml              |   |   |   |
+|----------------+-----------------------+---+---+---|
+| "a"="a"        | String a              |   |   |   |
+| "a"=true/false | Bool a                |   |   |   |
+| "a"=1          | Long a                |   |   |   |
+| "a"=[T]        | class T and List<T> a |   |   |   |
+| "a"={T}        | class T and T a       |   |   |   |
+

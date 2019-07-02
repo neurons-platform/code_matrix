@@ -1,0 +1,18 @@
+class GitVersionReport {
+  List<ABC> abcList
+  List<List<String>> stringList
+  Age age
+  Bool success
+  String type
+  String system
+  String cluster
+  String env
+  String ip
+  Long deployTime
+  String gitId
+  String gitBranch
+  Long gitBuildTime
+  String gitCommitUser
+  String gitCommitMsg
+  String gitUrl
+}
